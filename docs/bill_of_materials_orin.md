@@ -17,18 +17,19 @@ Some of the parts are 3D printed.  We provide the STL files needed to print thes
 
 You need these components for each JetBot.
 
-|  **Part** | **Quantity** | **Cost** | **URL** | **Notes** |
-| --- | --: | --: | --- | --- |
-| Jetson Orin Nano 8GB Developer Kit | 1 |  $499.00 | [NVIDIA](https://store.nvidia.com/jetson/store/)  |  |
-| Micro SD card | 1 | $14.95 | [Amazon](https://a.co/d/0aOqPQh) | 128GB |
-| Motor | 2 | $5.90 | [Adafruit](http://adafru.it/3777), [Amazon(1)](https://a.co/d/cQ489BJ), [Amazon(2)](https://amzn.to/2MU9zPb) | "TT" form factor |
-| Motor Driver | 1 | $19.95 | [Adafruit](http://adafru.it/2927), [Amazon](https://a.co/d/aUs8dwA) |  |
-| Caster ball | 1 | $10.99 | [Amazon](https://a.co/d/3WmVtqU) | 1-inch diameter |
-| USB cable pack | 1 | $6.99 | [Amazon](http://amzn.com/B01N337FQF/) | Type A to Micro, right angle |
-| *PiOLED* display | 1 | $13.45 | [Adafruit](http://adafru.it/3527), [Amazon](https://a.co/d/cmRS0RE) |  |
-| *PiOLED* header | 1 | $7.99 | [Adafruit](http://adafru.it/1541), [Amazon](https://a.co/d/fGDbnIE), [Sparkfun](https://www.sparkfun.com/products/12792) | 2x(3+) right angle male |
-| Chassis | 1 | -- | [STL file](cad/chassis.stl) | see [3D printing](3d-printing) | |
-| Camera Mount | 1 | -- | [STL file](cad/camera_mount.stl) | see [3D printing](3d-printing) |
+| **Part**                           | **Quantity** | **Cost** | **URL** | **Notes**                      |
+|------------------------------------| --: |---------:| --- |--------------------------------|
+| Jetson Orin Nano 8GB Developer Kit | 1 |  $499.00 | [NVIDIA](https://store.nvidia.com/jetson/store/) |                                |
+| Micro SD card                      | 1 |   $14.95 | [Amazon](https://a.co/d/0aOqPQh) | 128GB                          |
+| SSD Drive                          | 1 |   $56.99 | [Amazon](https://t.ly/KGEJG) | 1 TB                           |
+| Motor                              | 2 |    $5.90 | [Adafruit](http://adafru.it/3777), [Amazon(1)](https://a.co/d/cQ489BJ), [Amazon(2)](https://amzn.to/2MU9zPb) | "TT" form factor               |
+| Motor Driver                       | 1 |   $19.95 | [Adafruit](http://adafru.it/2927), [Amazon](https://a.co/d/aUs8dwA) |                                |
+| Caster ball                        | 1 |   $10.99 | [Amazon](https://a.co/d/3WmVtqU) | 1-inch diameter                |
+| USB cable pack                     | 1 |    $6.99 | [Amazon](http://amzn.com/B01N337FQF/) | Type A to Micro, right angle   |
+| *PiOLED* display                   | 1 |   $13.45 | [Adafruit](http://adafru.it/3527), [Amazon](https://a.co/d/cmRS0RE) |                                |
+| *PiOLED* header                    | 1 |    $7.99 | [Adafruit](http://adafru.it/1541), [Amazon](https://a.co/d/fGDbnIE), [Sparkfun](https://www.sparkfun.com/products/12792) | 2x(3+) right angle male        |
+| Chassis                            | 1 |       -- | [STL file](cad/chassis.stl) | see [3D printing](3d-printing) | |
+| Camera Mount                       | 1 |       -- | [STL file](cad/camera_mount.stl) | see [3D printing](3d-printing) |
 
 ### Power source
 
@@ -90,3 +91,11 @@ You need the following parts to build JetBot.  They come in packs, so order the 
 |  M3 screw | 4 | 60 | $0.47 | [Amazon](https://a.co/d/2foBYX5) | 25mm long|
 |  M3 nut | 4 | 150 | $0.20 | [Amazon](https://a.co/d/05wzwMC) |  |
 |  Jumper wires | 4 | 40 | $0.56 | [Amazon](https://a.co/d/5FdEzo4) | Female-female, ~20cm |
+
+### Optional Parts
+
+You need the following parts to debug the JetBot.  
+
+| **Part**                | **Qty per JetBot** | **Qty per pack** | **Cost per JetBot** |                      **URL** | **Notes** |
+|-------------------------|--------------------|-----------------:|--------------------:|-----------------------------:| --- |
+| USB to TTL Serial Cable | 1                  |                1 |               $7.99 | [Amazon](https://t.ly/bof-o) | |
